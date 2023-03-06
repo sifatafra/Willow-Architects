@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 900px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.quote {
+    color: #727272;
+}
+
+.btn {
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.nav-pic {
+    height: 500px;
+    width: 1200px;
+    margin: 20px 150px;
+}
+
+.photo-collage {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.collage-section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.gray {
+    color: #727272;
+}
+
+.dark {
+    color: black;
+}
+
+.orange {
+    color: #FF900E;
+}
+
+.description {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.architect {
+    margin: 100px 200px;
+}
+
+.flex {
+    display: flex;
+    gap: 100px;
+}
+
+.flex img {
+    width: 500px;
+}
+
+.title {
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 10px;
+}
+
+.details {
+    margin-bottom: 5px;
+}
+
+.orange-btn {
+    color: white;
+    background-color: #FF900E;
+    height: 100px;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -30px;
+}
+
+.facts {
+    text-align: center;
+    margin: 50px 200px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 100px;
+    margin: 30px 200px;
+    text-align: center;
+
+}
+
+.facts-t {
+    border: 1px solid #FF900E;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.photo-collages img {
+    width: 200px;
+    height: 280px;
+}
+
+.sponsors {
+    display: flex;
+    gap: 80px;
+    margin: 50px 200px;
+}
+
+.tl {
+    font-size: xx-large;
+    color: #FF900E;
+}
+
+.sponsors img {
+    filter: grayscale(100%);
+}
+
+footer {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 30px;
+    height: 70px;
+
+}
